@@ -59,7 +59,7 @@ return (
         </div>
             ) : (  
                 <div className="absolute right-1 top-3">
-        <a href="/login">
+        <a href="/MYFLIX/login">
             <button className="text-white px-6 py-4 rounded cursor-pointer left">Sign In</button>
         </a>
         <a href="/signup">
