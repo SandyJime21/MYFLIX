@@ -16,12 +16,12 @@ function App(props) {
       <Navbar />
       <Routes>
         <Route path = "/MYFLIX"  element = { <Home/> }/> 
-        <Route path = "/login" element = {<Login/>}/>
-        <Route path = '/forgot-password' element = {<ForgotPassword/> }/>
-        <Route path = "/signup"  element = {<Signup/>}/>
-        <Route path = "/account"  element = {<ProtectedRoute><Account/></ProtectedRoute>}/>
-        <Route path = "/watch"  element = {<ProtectedRoute><Watch/></ProtectedRoute>}/>
-        <Route path = "/tvShows"  element = {<ProtectedRoute><TvShows/></ProtectedRoute>}/>
+        <Route path = "/MYFLIX/login" element = {<Login/>}/>
+        <Route path = '/MYFLIX/forgot-password' element = {<ForgotPassword/> }/>
+        <Route path = "/MYFLIX/signup"  element = {<Signup/>}/>
+        <Route path = "/MYFLIX/account"  element = {<ProtectedRoute><Account/></ProtectedRoute>}/>
+        <Route path = "/MYFLIX/watch"  element = {<ProtectedRoute><Watch/></ProtectedRoute>}/>
+        <Route path = "/MYFLIX/tvShows"  element = {<ProtectedRoute><TvShows/></ProtectedRoute>}/>
       </Routes>
     </AuthContextProvider>  
     </>);
