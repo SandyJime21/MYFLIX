@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.52df5aa0.css",
-    "main.js": "/react-gh-pages/static/js/main.0f810a3c.js",
-    "static/media/friendslogo.png": "/react-gh-pages/static/media/friendslogo.a1a2a21eab081e919657.png",
-    "static/media/gotlogo.jpg": "/react-gh-pages/static/media/gotlogo.2a0affe7bbfe8f37051a.jpg",
-    "static/media/friendslogo2.png": "/react-gh-pages/static/media/friendslogo2.d176a7085c1263a25be0.png",
-    "static/media/gotlogo2.jpg": "/react-gh-pages/static/media/gotlogo2.6b9045cdab7f09239885.jpg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.52df5aa0.css.map": "/react-gh-pages/static/css/main.52df5aa0.css.map",
-    "main.0f810a3c.js.map": "/react-gh-pages/static/js/main.0f810a3c.js.map"
+    "main.css": "/static/css/main.52df5aa0.css",
+    "main.js": "/static/js/main.b02ef19b.js",
+    "static/media/friendslogo.png": "/static/media/friendslogo.a1a2a21eab081e919657.png",
+    "static/media/gotlogo.jpg": "/static/media/gotlogo.2a0affe7bbfe8f37051a.jpg",
+    "static/media/friendslogo2.png": "/static/media/friendslogo2.d176a7085c1263a25be0.png",
+    "static/media/gotlogo2.jpg": "/static/media/gotlogo2.6b9045cdab7f09239885.jpg",
+    "index.html": "/index.html",
+    "main.52df5aa0.css.map": "/static/css/main.52df5aa0.css.map",
+    "main.b02ef19b.js.map": "/static/js/main.b02ef19b.js.map"
   },
   "entrypoints": [
     "static/css/main.52df5aa0.css",
-    "static/js/main.0f810a3c.js"
+    "static/js/main.b02ef19b.js"
   ]
 }
