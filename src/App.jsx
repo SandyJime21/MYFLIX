@@ -17,7 +17,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route  path="/MYFLIX"  element={ <Home/> }/> 
-        <Route  path="https://sandyjime21.github.io/MYFLIX/Login" element={<Login/>}/>
+        <Route  path="/Login" element={<Login/>}/>
         <Route  path='/ForgotPassword' element={<ForgotPassword/> }/>
         <Route  path="/Signup"  element={<Signup/>}/>
         <Route  path="/Account"  element={<ProtectedRoute><Account/></ProtectedRoute>}/>
