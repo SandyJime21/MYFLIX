@@ -13,7 +13,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       await signUp(email, password);
-      navigate('/')
+      navigate('/MYFLIX')
     } catch (error) {
       console.log(error);
     }

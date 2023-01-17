@@ -15,7 +15,7 @@ function App(props) {
     <AuthContextProvider>
       <Navbar />
       <Routes>
-        <Route path = "/"  element = { <Home/> }/> 
+        <Route path = "/MYFLIX"  element = { <Home/> }/> 
         <Route path = "/login" element = {<Login/>}/>
         <Route path = '/forgot-password' element = {<ForgotPassword/> }/>
         <Route path = "/signup"  element = {<Signup/>}/>

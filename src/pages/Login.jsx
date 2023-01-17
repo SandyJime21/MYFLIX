@@ -15,7 +15,7 @@ export const Login = () => {
         try{
             //await for singup then navigate to homepage
     await logIn(email, password)
-    navigate("/")
+    navigate("/MYFLIX")
         }catch(error) {
             console.log(error)
             setError(error.message);

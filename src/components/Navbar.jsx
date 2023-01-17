@@ -12,7 +12,7 @@ const Navbar = (props) => {
     const handleLogOut= async () => {
         try{
         await logOut();
-        navigate("/");
+        navigate("/MYFLIX");
         }catch(error) {
             console.log(error)
         }
@@ -40,7 +40,7 @@ return (
 </div>
 
     <div className="items-center justify-between p-4 z-[100] w-[100%] absolute sm:inline-block sm:grid-cols-2">
-        <a href="/">
+        <a href="/MYFLIX">
             <h1 className="text-blue-600 text-4xl font-bold cursor-pointer sm:text-5xl">MYFLIX</h1>
         </a> 
 
