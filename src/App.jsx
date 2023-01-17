@@ -17,7 +17,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route  path="/MYFLIX" exact component={Home} element={ <Home/> }/> 
-        <Route  path="/Login" exact component={Login} element={<Login/>}/>
+        <Route  path="/Login" exact component={Login}/>
         <Route  path='/ForgotPassword'exact component={ForgotPassword} element={<ForgotPassword/>}/>
         <Route  path="/Signup" exact component={Signup} element={<Signup/>}/>
         <Route  path="/Account" exact component={Account} element={<ProtectedRoute><Account/></ProtectedRoute>}/>
