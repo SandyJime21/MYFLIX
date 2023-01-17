@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/MYFLIX/static/css/main.52df5aa0.css",
-    "main.js": "/MYFLIX/static/js/main.e2df5ddc.js",
+    "main.js": "/MYFLIX/static/js/main.12548487.js",
     "static/media/friendslogo.png": "/MYFLIX/static/media/friendslogo.a1a2a21eab081e919657.png",
     "static/media/gotlogo.jpg": "/MYFLIX/static/media/gotlogo.2a0affe7bbfe8f37051a.jpg",
     "static/media/friendslogo2.png": "/MYFLIX/static/media/friendslogo2.d176a7085c1263a25be0.png",
     "static/media/gotlogo2.jpg": "/MYFLIX/static/media/gotlogo2.6b9045cdab7f09239885.jpg",
     "index.html": "/MYFLIX/index.html",
     "main.52df5aa0.css.map": "/MYFLIX/static/css/main.52df5aa0.css.map",
-    "main.e2df5ddc.js.map": "/MYFLIX/static/js/main.e2df5ddc.js.map"
+    "main.12548487.js.map": "/MYFLIX/static/js/main.12548487.js.map"
   },
   "entrypoints": [
     "static/css/main.52df5aa0.css",
-    "static/js/main.e2df5ddc.js"
+    "static/js/main.12548487.js"
   ]
 }
