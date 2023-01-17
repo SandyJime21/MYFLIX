@@ -48,12 +48,12 @@ export const Login = () => {
                     autoComplete='current-password'></input>
                     <button className='bg-blue-600 py-3 my-6 rounded font-bold'>Sign In</button>
                     <div className='flex justify-between items-center text-sm text-gray-500'>
-                    <a href="/forgot-password"><p>Forgot Password</p></a>
+                    <a href="/MYFLIX/forgot-password"><p>Forgot Password</p></a>
                     <a href = "mailto:sandyjtech@gmail.com"><p>Need Help?</p></a> 
                     </div>
                     <p className='py-8'>
                     <span className='text-gray-500'>
-                    New to Myflix?</span>{} <a href='/signUp'> Create an account</a></p>
+                    New to Myflix?</span>{} <a href='/MYFLIX/signUp'> Create an account</a></p>
                 </form>
 
             </div>

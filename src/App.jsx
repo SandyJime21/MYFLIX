@@ -13,15 +13,15 @@ import ProtectedRoute from "./components/ProtectedRoute";
 function App(props) {
     return ( <>
     <AuthContextProvider>
-      <Navbar />
+      <Navbar/>
       <Routes>
-        <Route path = "/MYFLIX"  element = { <Home/> }/> 
-        <Route path = "/MYFLIX/login" element = {<Login/>}/>
-        <Route path = '/MYFLIX/forgot-password' element = {<ForgotPassword/> }/>
-        <Route path = "/MYFLIX/signup"  element = {<Signup/>}/>
-        <Route path = "/MYFLIX/account"  element = {<ProtectedRoute><Account/></ProtectedRoute>}/>
-        <Route path = "/MYFLIX/watch"  element = {<ProtectedRoute><Watch/></ProtectedRoute>}/>
-        <Route path = "/MYFLIX/tvShows"  element = {<ProtectedRoute><TvShows/></ProtectedRoute>}/>
+        <Route exact path ="/MYFLIX"  element = { <Home/> }/> 
+        <Route exact path ="/MYFLIX/login" element = {<Login/>}/>
+        <Route exact path ='/MYFLIX/forgot-password' element = {<ForgotPassword/> }/>
+        <Route exact path ="/MYFLIX/signup"  element = {<Signup/>}/>
+        <Route exact path ="/MYFLIX/account"  element = {<ProtectedRoute><Account/></ProtectedRoute>}/>
+        <Route exact path ="/MYFLIX/watch"  element = {<ProtectedRoute><Watch/></ProtectedRoute>}/>
+        <Route exact path ="/MYFLIX/tvShows"  element = {<ProtectedRoute><TvShows/></ProtectedRoute>}/>
       </Routes>
     </AuthContextProvider>  
     </>);

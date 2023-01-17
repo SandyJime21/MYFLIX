@@ -53,12 +53,12 @@ const Signup = () => {
               Sign Up</button>
                 
             <div className='flex justify-between items-center text-sm text-gray-500'>
-            <a href='/forgot-password'><p>Forgot Password</p></a>
+            <a href='/MYFLIX/forgot-password'><p>Forgot Password</p></a>
             <a href = "mailto: sandyjtech@gmail.com"><p>Need Help?</p></a> 
             </div>
                 <p className='py-8'>
                   <span className='text-gray-500'>
-                  Already subscribed to Myflix?</span>{} <a href='/login'> Sign In</a>
+                  Already subscribed to Myflix?</span>{} <a href='/MYFLIX/login'> Sign In</a>
                 </p>
               </form>
             </div>
