@@ -10,14 +10,14 @@ import ForgotPassword from "./pages/ForgotPassword"
 import { TvShows } from "./pages/TvShows";
 import ProtectedRoute from "./components/ProtectedRoute";
 
-function App(props) {
+function App() {
   
     return ( <>
     <AuthContextProvider>
       <Navbar/>
       <Routes>
         <Route exact path="/MYFLIX"  element={ <Home/> }/> 
-        <Route exact path="/Login" element={<Login/>}/>
+        <Route exact path="/#/Login" element={<Login/>}/>
         <Route exact path='/ForgotPassword' element={<ForgotPassword/> }/>
         <Route exact path="/Signup"  element={<Signup/>}/>
         <Route exact path="/Account"  element={<ProtectedRoute><Account/></ProtectedRoute>}/>
