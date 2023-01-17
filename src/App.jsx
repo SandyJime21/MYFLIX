@@ -16,13 +16,13 @@ function App() {
     <AuthContextProvider>
       <Navbar/>
       <Routes>
-        <Route  path="/MYFLIX"  element={ <Home/> }/> 
-        <Route  path="/Login" element={<Login/>}/>
-        <Route  path='/ForgotPassword' element={<ForgotPassword/> }/>
-        <Route  path="/Signup"  element={<Signup/>}/>
-        <Route  path="/Account"  element={<ProtectedRoute><Account/></ProtectedRoute>}/>
-        <Route  path="/Watch"  element={<ProtectedRoute><Watch/></ProtectedRoute>}/>
-        <Route  path="/TvShow"  element={<ProtectedRoute><TvShows/></ProtectedRoute>}/>
+        <Route  path="/MYFLIX" exact component={Home} element={ <Home/> }/> 
+        <Route  path="/Login" exact component={Login} element={<Login/>}/>
+        <Route  path='/ForgotPassword'exact component={ForgotPassword} element={<ForgotPassword/>}/>
+        <Route  path="/Signup" exact component={Signup} element={<Signup/>}/>
+        <Route  path="/Account" exact component={Account} element={<ProtectedRoute><Account/></ProtectedRoute>}/>
+        <Route  path="/Watch" exact component={Watch} element={<ProtectedRoute><Watch/></ProtectedRoute>}/>
+        <Route  path="/TvShow" exact component={TvShows} element={<ProtectedRoute><TvShows/></ProtectedRoute>}/>
       </Routes>
     </AuthContextProvider>  
     </>);
