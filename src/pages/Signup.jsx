@@ -53,7 +53,7 @@ const Signup = () => {
               Sign Up</button>
                 
             <div className='flex justify-between items-center text-sm text-gray-500'>
-            <a href='/MYFLIX/forgot-password'><p>Forgot Password</p></a>
+            <a href='/ForgotPassword'><p>Forgot Password</p></a>
             <a href = "mailto: sandyjtech@gmail.com"><p>Need Help?</p></a> 
             </div>
                 <p className='py-8'>

@@ -17,12 +17,12 @@ function App(props) {
       <Navbar/>
       <Routes>
         <Route exact path ="/MYFLIX"  element ={ <Home/> }/> 
-        <Route exact path ="/MYFLIX/login" element ={<Login/>}/>
-        <Route exact path ='/MYFLIX/forgot-password' element = {<ForgotPassword/> }/>
-        <Route exact path ="/MYFLIX/signup"  element = {<Signup/>}/>
-        <Route exact path ="/MYFLIX/account"  element = {<ProtectedRoute><Account/></ProtectedRoute>}/>
-        <Route exact path ="/MYFLIX/watch"  element = {<ProtectedRoute><Watch/></ProtectedRoute>}/>
-        <Route exact path ="/MYFLIX/tvShows"  element = {<ProtectedRoute><TvShows/></ProtectedRoute>}/>
+        <Route exact path ="/Login" element ={<Login/>}/>
+        <Route exact path ='/ForgotPassword' element = {<ForgotPassword/> }/>
+        <Route exact path ="/Signup"  element = {<Signup/>}/>
+        <Route exact path ="/Account"  element = {<ProtectedRoute><Account/></ProtectedRoute>}/>
+        <Route exact path ="/Watch"  element = {<ProtectedRoute><Watch/></ProtectedRoute>}/>
+        <Route exact path ="/TvShow"  element = {<ProtectedRoute><TvShows/></ProtectedRoute>}/>
       </Routes>
     </AuthContextProvider>  
     </>);
