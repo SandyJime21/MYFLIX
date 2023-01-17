@@ -5,9 +5,9 @@ import App from './App';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <Router >
-    <App/>
+root.render( 
+<Router basename = {'/MYFLIX' }>
+    <App />
     </Router>
 
 );
