@@ -13,7 +13,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       await signUp(email, password);
-      navigate('/MYFLIX')
+      navigate('/')
     } catch (error) {
       console.log(error);
     }
@@ -53,7 +53,7 @@ const Signup = () => {
               Sign Up</button>
                 
             <div className='flex justify-between items-center text-sm text-gray-500'>
-            <a href='/ForgotPassword'><p>Forgot Password</p></a>
+            <a href='/MYFLIX/ForgotPassword'><p>Forgot Password</p></a>
             <a href = "mailto: sandyjtech@gmail.com"><p>Need Help?</p></a> 
             </div>
                 <p className='py-8'>

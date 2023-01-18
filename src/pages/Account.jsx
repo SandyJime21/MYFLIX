@@ -14,9 +14,9 @@ export const Account = () => {
      <div className='absolute top-[25%] p-4 md:p-8'>
      <div className='my-4'>
      <a href="/MYFLIX"><button className='border bg-gray-300 text-black md:py-2 md:px-5 ml-2 xs:py-1 xs:px-3 hover:bg-blue-600 hover:text-white hover:border-blue-500 hover:font-bold'>Home</button></a>
-         <a href="/TvShow"><button className='border text-white md:py-2 md:px-5 ml-2 xs:py-1 xs:px-3 hover:bg-blue-600 hover:text-black hover:border-blue-500 hover:font-bold'>Tv Shows
+         <a href="/MYFLIX/TvShow"><button className='border text-white md:py-2 md:px-5 ml-2 xs:py-1 xs:px-3 hover:bg-blue-600 hover:text-black hover:border-blue-500 hover:font-bold'>Tv Shows
         </button></a>
-        <a href="/Watch"><button className='border bg-gray-300 text-black md:py-2 md:px-5 ml-2 xs:py-1 xs:px-3 hover:bg-blue-600 hover:text-white hover:border-blue-500 hover:font-bold'>Movies
+        <a href="/MYFLIX/Watch"><button className='border bg-gray-300 text-black md:py-2 md:px-5 ml-2 xs:py-1 xs:px-3 hover:bg-blue-600 hover:text-white hover:border-blue-500 hover:font-bold'>Movies
         </button></a>
       </div>
       </div>

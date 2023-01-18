@@ -12,7 +12,7 @@ const Navbar = (props) => {
     const handleLogOut= async () => {
         try{
         await logOut();
-        navigate("/MYFLIX");
+        navigate("/");
         }catch(error) {
             console.log(error)
         }
@@ -47,10 +47,10 @@ return (
         {user?.email ?  (
        <div className={`md:flex ${  isOpen ? "block" : "hidden" }`}> 
        <div className="xs:fixed xs:top-0 xs:w-100 xs:inline xs:right-0">
-          <a href="/Watch">
+          <a href="/MYFLIX/Watch">
             <button className="xs:bg-white xs:font-bold border text-blue-400 p-2 m-2 rounded cursor-pointer animate-bounce xs:p-1">Watch Now</button>
         </a>
-        <a href="/Account">
+        <a href="/MYFLIX/Account">
             <button className="border text-white px-6 py-2 m-2 rounded cursor-pointer xs:bg-white xs:font-bold xs:text-black xs:p-1">My Account</button>
         </a>
                    <button onClick={handleLogOut} 
@@ -59,10 +59,10 @@ return (
         </div>
             ) : (  
                 <div className="absolute right-1 top-3">
-        <a href="/Login">
+        <a href="/MYFLIX/Login">
             <button className="text-white px-6 py-4 rounded cursor-pointer left">Sign In</button>
         </a>
-        <a href="/Signup">
+        <a href="/MYFLIX/Signup">
             <button className="text-white bg-blue-500 px-6 py-4 rounded cursor-pointer">Sign Up</button>
         </a>
             </div>)}

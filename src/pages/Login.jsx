@@ -15,7 +15,7 @@ export const Login = () => {
         try{
             //await for singup then navigate to homepage
     await logIn(email, password)
-    navigate("/MYFLIX")
+    navigate("/")
         }catch(error) {
             console.log(error)
             setError(error.message);
@@ -48,12 +48,12 @@ export const Login = () => {
                     autoComplete='current-password'></input>
                     <button className='bg-blue-600 py-3 my-6 rounded font-bold'>Sign In</button>
                     <div className='flex justify-between items-center text-sm text-gray-500'>
-                    <a href="/ForgotPassword"><p>Forgot Password</p></a>
+                    <a href="/MYFLIX/ForgotPassword"><p>Forgot Password</p></a>
                     <a href = "mailto:sandyjtech@gmail.com"><p>Need Help?</p></a> 
                     </div>
                     <p className='py-8'>
                     <span className='text-gray-500'>
-                    New to Myflix?</span>{} <a href='/Signup'> Create an account</a></p>
+                    New to Myflix?</span>{} <a href='/MYFLIX/Signup'> Create an account</a></p>
                 </form>
 
             </div>
