@@ -52,7 +52,7 @@ savedShows: result,
     <div id={'slider'} 
     className='w-[100%] h-[100%] overflow-x-scroll overflow-y-hidden whitespace-nowrap scroll-smooth scrollbar-hide relative'>
 {shows.map((showEp, id) => (
-<div key={id} className='relative w-[160px] p-2 cursor-pointer inline-block lg:w-[280px] md:w-[240px] sm:w[200px]'>
+<div key={id} className='relative w-[35%] p-2 cursor-pointer inline-block lg:w-[280px] md:w-[240px] sm:w[200px]'>
  
  <a href={showEp?.url}>
     <button className='relative flex rounded bg-blue-500 font-bold text-white top-0 w-[100%] hover:bg-white hover:text-blue-600'>

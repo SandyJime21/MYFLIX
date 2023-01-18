@@ -48,7 +48,7 @@ return (
        <div className={`md:flex ${  isOpen ? "block" : "hidden" }`}> 
        <div className="xs:fixed xs:top-0 xs:w-100 xs:inline xs:right-0">
           <Link to="/Watch">
-            <button className="xs:bg-white xs:font-bold border text-blue-400 p-2 m-2 rounded cursor-pointer animate-bounce xs:p-1">Watch Now</button>
+            <button className="xs:bg-white xs:font-bold border text-blue-400 p-2 m-2 rounded cursor-pointer animate-bounce xs:p-1">Watch Movies</button>
         </Link>
         <Link to='/Account'>
            <button className="border text-white px-6 py-2 m-2 rounded cursor-pointer xs:bg-white xs:font-bold xs:text-black xs:p-1">My Account</button>
