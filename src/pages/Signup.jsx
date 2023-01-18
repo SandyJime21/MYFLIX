@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { UserAuth } from '../context/AuthContext';
-
 
 const Signup = () => {
   const [email, setEmail] = useState('');
@@ -53,12 +52,12 @@ const Signup = () => {
               Sign Up</button>
                 
             <div className='flex justify-between items-center text-sm text-gray-500'>
-            <a href='/MYFLIX/ForgotPassword'><p>Forgot Password</p></a>
+            <Link to='/ForgotPassword'><p>Forgot Password</p></Link>
             <a href = "mailto: sandyjtech@gmail.com"><p>Need Help?</p></a> 
             </div>
                 <p className='py-8'>
                   <span className='text-gray-500'>
-                  Already subscribed to Myflix?</span>{} <a href='/MYFLIX/login'> Sign In</a>
+                  Already subscribed to Myflix?</span>{} <Link to='/login'> Sign In</Link>
                 </p>
               </form>
             </div>

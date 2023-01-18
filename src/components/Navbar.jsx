@@ -1,5 +1,5 @@
 import React, {useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { UserAuth } from "../context/AuthContext";
 
 const Navbar = (props) => {
@@ -40,31 +40,31 @@ return (
 </div>
 
     <div className="items-center justify-between p-4 z-[100] w-[100%] absolute sm:inline-block sm:grid-cols-2">
-        <a href="/MYFLIX">
+        <Link to="/">
             <h1 className="text-blue-600 text-4xl font-bold cursor-pointer sm:text-5xl">MYFLIX</h1>
-        </a> 
+        </Link> 
 
         {user?.email ?  (
        <div className={`md:flex ${  isOpen ? "block" : "hidden" }`}> 
        <div className="xs:fixed xs:top-0 xs:w-100 xs:inline xs:right-0">
-          <a href="/MYFLIX/Watch">
+          <Link to="/Watch">
             <button className="xs:bg-white xs:font-bold border text-blue-400 p-2 m-2 rounded cursor-pointer animate-bounce xs:p-1">Watch Now</button>
-        </a>
-        <a href="/MYFLIX/Account">
-            <button className="border text-white px-6 py-2 m-2 rounded cursor-pointer xs:bg-white xs:font-bold xs:text-black xs:p-1">My Account</button>
-        </a>
+        </Link>
+        <Link to='/Account'>
+           <button className="border text-white px-6 py-2 m-2 rounded cursor-pointer xs:bg-white xs:font-bold xs:text-black xs:p-1">My Account</button>
+       </Link>
                    <button onClick={handleLogOut} 
             className="text-white bg-blue-500 px-6 py-2 m-2 rounded cursor-pointer xs:p-1">Log Out</button>
         </div> 
         </div>
             ) : (  
                 <div className="absolute right-1 top-3">
-        <a href="/MYFLIX/Login">
+        <Link to="/Login">
             <button className="text-white px-6 py-4 rounded cursor-pointer left">Sign In</button>
-        </a>
-        <a href="/MYFLIX/Signup">
+        </Link>
+        <Link to="/Signup">
             <button className="text-white bg-blue-500 px-6 py-4 rounded cursor-pointer">Sign Up</button>
-        </a>
+        </Link>
             </div>)}
           
         </div>

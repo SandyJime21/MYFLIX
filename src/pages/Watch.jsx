@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import { MyMovieRow } from '../components/MyMovieRow';
 import Main from "../components/Main";
 
@@ -13,9 +14,10 @@ export const Watch = () => {
 />
      <div className='absolute top-[25%] p-4 md:p-8'>
      <div className='my-4'>
-      <a href="/MYFLIX"><button className='border bg-gray-300 text-black md:py-2 md:px-5 ml-2 xs:py-1 xs:px-3 hover:bg-blue-600 hover:text-white hover:border-blue-500 hover:font-bold'>Home</button></a>
-        <a href="/MYFLIX/TvShow"><button className='border text-white md:py-2 md:px-5 ml-2 xs:py-1 xs:px-3 hover:bg-blue-600 hover:text-black hover:border-blue-500 hover:font-bold'>Tv Shows
-        </button></a>
+      <Link to="/"><button className='border bg-gray-300 text-black md:py-2 md:px-5 ml-2 xs:py-1 xs:px-3 hover:bg-blue-600 hover:text-white hover:border-blue-500 hover:font-bold'>Home
+      </button></Link>
+      <Link to="/TvShow"><button className='border text-white md:py-2 md:px-5 ml-2 xs:py-1 xs:px-3 hover:bg-blue-600 hover:text-black hover:border-blue-500 hover:font-bold'>Tv Shows
+      </button></Link>
       </div>
       </div>
 

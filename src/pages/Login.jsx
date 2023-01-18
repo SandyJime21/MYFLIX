@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { UserAuth } from '../context/AuthContext';
 
 export const Login = () => {
@@ -48,12 +48,12 @@ export const Login = () => {
                     autoComplete='current-password'></input>
                     <button className='bg-blue-600 py-3 my-6 rounded font-bold'>Sign In</button>
                     <div className='flex justify-between items-center text-sm text-gray-500'>
-                    <a href="/MYFLIX/ForgotPassword"><p>Forgot Password</p></a>
+                    <Link to="/ForgotPassword"><p>Forgot Password</p></Link>
                     <a href = "mailto:sandyjtech@gmail.com"><p>Need Help?</p></a> 
                     </div>
                     <p className='py-8'>
                     <span className='text-gray-500'>
-                    New to Myflix?</span>{} <a href='/MYFLIX/Signup'> Create an account</a></p>
+                    New to Myflix?</span>{} <Link to='/Signup'> Create an account</Link></p>
                 </form>
 
             </div>
